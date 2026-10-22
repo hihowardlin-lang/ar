@@ -1,0 +1,14 @@
+<model-viewer src="scene.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-position="-0.6809661377494157m 0.4470849229704833m 0.9984200677677079m" data-normal="-0.20963818175695442m -0.032327952212730805m 0.9772444608466039m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">原神 岩史萊姆</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
